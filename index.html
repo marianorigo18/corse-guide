@@ -11,11 +11,11 @@
     <header>
         <nav class="nav">
             <div class="nav__logo">
-                <h2>course</h2>
+                <h2><a href="index.html">MarianoRigo18</a></h2>
             </div>
             <ul class="nav__items">
                 <li class="nav__item"><a class="nav__link" href="#">about me</a></li>
-                <li class="nav__item"><a class="nav__link" href="#">course</a></li>
+                <li class="nav__item"><a class="nav__link" href="course-cards.html">course-cards</a></li>
                 <li class="nav__item"><a class="nav__link" href="#">foro</a></li>
                 <li class="nav__item"><a class="nav__link" href="#">blog</a></li>
             </ul>
@@ -153,39 +153,117 @@
         </div>
         <section>
             <h2 class="subtitle">HTML basico</h2>
-            <div class="content">
-                <h2>que es html?</h2>
-                <hr>
-                <p>
-                    html es un lenguage de marcado de hipertexto que nos permite darle una estructura a nuestro sitio web, basandonos en etiquetas que nos permite darle un significado a nuestro contenido.
-                </p>
-                <p>
-                    Mjm, pero.. a que me refiero con "darle siginificado al contenido", bueno para eso estan las etiquetas, que sirven para describir el contenido que estara dentro de la misma, te doy ejemplo.
-                </p>
-                <p>
-                    hay etiquetas como la etiqueta p que se utiliza para describir que lo que habra dentro de esa etiqueta sera un parrafo
-                </p>
-                <p>
-                    o las etiquetas h1, h2, h3, h4, h5 y h6 que se utilizan para los titulos o subtitulos..
-                </p>
-                <p>
-                    por otro lado estan las etiquetas de secciones, ¡si secciones! porque todos los sitios webs tienen secciones, como la parte superior donde va el logo y la navegacion que se le suele llammar header, para el contenido principal que para esa seccion se utiliza la etiqueta main, asi tambien para la barra lateral donde tenemos el aside que seria la parte informativa o de publicidad, y por ultimo el pie de pagina que va acompañado de la etiqueta llamada footer.
-                </p>
-
-                <p>
-                    existen muchas etiquetas html que nosotros nosotros vamos a ir utilizando pero esas las vamos a ir descubriendo poco a poco
-                </p>
-            </div>
-            <div class="content">
-                <h2>etiquetas</h2>
-                <hr>
-                <details>
-                    <summary>head</summary>
-                    <div>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sapiente iure illum soluta aspernatur minus animi labore alias. Eaque commodi aspernatur eveniet? Quis tempore excepturi voluptas repellat sit nihil. Dolore!</p>
-                    </div>
-                </details>
-            </div>
+            <details open>
+                <summary>HTML</summary>
+                <div class="content content__hidden">
+                    <h2>Que es HTML?</h2>
+                    <p>HTML es el lenguage sobre el cual esta construida toda la web.</p>
+                    <p>
+                        HTML son las siglas de <strong> Hyper Text Markup Language</strong>, es decir
+                        lenguaje de marcado de hipertexto.
+                     </p>
+                     <p>
+                        Para comprender mejor esto vamos a desmenusar estas siglas.
+                     </p>
+                     <section>
+                        <h3>Hypertext:</h3>
+                        <p>
+                           Se refire a un texto que contiene un enlace, es decir el texto plano en un
+                           texto que solamente puedes leerlo,
+                        </p>
+                        <p>
+                           pero un hipertexto es aquel texto que contiene fragmentos donde tu puedes 
+                           hacer click en un navegador grafico y eso te llevara a otro documento,
+                           esto permite que los documentos esten interconectados entre si.
+                        </p>
+                        <p>
+                          Esto es algo muy elemental pero es la base de toda la web y en su momento
+                          fue una completa revolucion.
+                        </p>
+                     </section>
+                     <section>
+                        <h3>Markup:</h3>
+                        <p>
+                            Significa que html es un lenguaje que define la estructura de los documentos,
+                            es decir, en un documento indica que parte es el titulo, que parte es un parrado,
+                            que parte es una imagen, o que parte es un enlace, etc.
+                        </p>
+                     </section>
+                     <section>
+                        <h3>Language:</h3>
+                        <p>
+                            La palabra lenguaje nos indica que claramente HTML es un lenguaje, no un lenguaje
+                            de programacion pero si un lenguaje de marcado.
+                        </p>
+                     </section>
+                     <hr>
+                     <section>
+                        <h2>La web y HTML</h2>
+                        <p>
+                            La web entones es el conjunto de documentos HTML interconectados a traves
+                            de enlaces alrededor de todo el mundo,es por eso se llama <em>World wide web</em>
+                            , o red de alcance global, la world wide web funciona a traves de internet, por el
+                            cual se pueden transferir diversos tipos de datos a traves de el protocolo
+                            Protocolo de Transferencia de datos o HTTP <em>(Hypertext Transfer Protocol)</em>, 
+                            que son los enlaces a las paginas webs.
+                        </p>
+                     </section>
+                     <section>
+                        <h3>Breve historio de HTML pero muy importante</h3>
+                        <p>
+                            Tim Berners-Lee es un cientifico de la computacion britanico, conocido por ser
+                            el creado de la <em>World Wide Web</em>.Establecio la primera comunicacion entre 
+                            un cliente y un servidor usando el protocolo http en diciembre de 1990
+                        </p>
+                     </section>
+    
+                    <button>
+                        <a href="https://www.youtube.com/watch?v=0IiJSu3DP34&ab_channel=MarianoWagnerRigo" target="_blank">
+                            Aqui te lo explico en un video
+                        </a>
+                    </button>
+                </div>
+                <div class="content">
+                    <h2>Tipos de etiquetas</h2>
+                    <details>
+                        <summary>Etiquetas de secciones</summary>
+                        <div>
+                            <ul>
+                                <li>DOCTYPE</li>
+                                <li>html</li>
+                                <li>head</li>
+                                <li>body</li>
+                                <li>header</li>
+                                <li>main</li>
+                                <li>nav</li>
+                                <li>aside</li>
+                                <li>footer</li>
+                                <li>section</li>
+                                <li>div</li>
+                            </ul>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Etiquetas de contenido</summary>
+                        <div>
+                            <ul>
+                                <li>h1</li>
+                                <li>h2, h3, h4, h5, h6</li>
+                                <li>p</li>
+                            </ul>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Etiquetas con funciones</summary>
+                        <div>
+                            <ul>
+                                <li>hr</li>
+                                <li>br</li>
+                            </ul>
+                        </div>
+                    </details>
+                </div>
+            </details>
         </section>
 
     </main>
